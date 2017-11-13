@@ -1,0 +1,28 @@
+
+.jumbotron{
+	/*can be adjusted*/
+	height: 800px;
+	width: 100%;
+}
+
+.center{
+	margin: auto;
+}
+
+.thumbnail{
+	height: 200px;
+	width: 200px;
+	z-index: 0;
+}
+
+.thumbnail:hover{
+ 	position:relative;
+	background-color: transparent;
+    width:500px;
+    height:auto;
+    z-index:50;
+}
+
+.description{
+	background-color:#52bde0;
+}
